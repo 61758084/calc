@@ -1,0 +1,35 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT! */
+
+#include <windows.h> // include for version info constants
+
+#include "icon.rc"
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "080404E4"
+    {
+      VALUE "CompanyName", "城南2019<4> 老煜"
+      VALUE "FileVersion", "1.0"
+      VALUE "FileDescription", "使用C++开发的科学计算器"
+      VALUE "InternalName", ""
+      VALUE "LegalCopyright", ""
+      VALUE "LegalTrademarks", "城南2019<4> 老煜"
+      VALUE "OriginalFilename", "计算器.exe"
+      VALUE "ProductName", ""
+      VALUE "ProductVersion", "1.0"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0804, 1252
+  }
+}
